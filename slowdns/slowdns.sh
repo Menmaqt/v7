@@ -4,7 +4,6 @@
 # ===============================================
 
 # pewarna hidup
-BGreen='\e[1;32m'
 BYellow='\e[1;33m'
 NC='\e[0m'
 #setting IPtables
@@ -21,7 +20,7 @@ rm nsdomain
 clear
 #input nameserver manual to cloudflare
 echo -e "$BYellow.-----------------------------------------------.${NC}"
-echo -e "$BYellow|           $BGreenSetup For Your Nameserver$NC           $BYellow|${NC}"
+echo -e "$BYellow|           Setup For Your Nameserver           |${NC}"
 echo -e "$BYellow'-----------------------------------------------'${NC}"
 echo -e ""
 read -rp "Masukkan Nameserver: " -e sub
